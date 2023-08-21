@@ -76,13 +76,13 @@
 
     <section>
       <h2>Introduction</h2>
-        <p>With the rapid development of cloud computing technology, the centralized cloud is evolving towards a distributed "edge cloud".  An edge cloud allows developers to deploy their code using function-as-a-service (FaaS) close to the user's location. One of such service is Alibaba Cloud's <a href="https://www.alibabacloud.com/help/en/dynamic-route-for-cdn/latest/er-overview">EdgeRoutine</a> 
+        <p>With the rapid development of cloud computing technology, the centralized cloud is evolving towards a distributed "edge cloud".  An edge cloud allows developers to deploy their code using function-as-a-service (FaaS) close to the user's location. One such service is Alibaba Cloud's <a href="https://www.alibabacloud.com/help/en/dynamic-route-for-cdn/latest/er-overview">EdgeRoutine</a> 
           service.</p>
       
         <p>
           With the rapid adoption of new technologies such as machine learning, IoT etc. in client side applications, client side applications may also need to perform computing intensive work. For example, machine
-          learning inference can also be done in the client side. As one such examples, the Taobao mobile App leverages client side machine learning inference for user face detection etc. 
-          W3C is also working on <a href="https://www.w3.org/groups/wg/webmachinelearning">WebNN</a>  standard that allow client side developers to leverage the machine learning acceleration 
+          learning inference can also be done in the client side. As one such example, the Taobao mobile App leverages client side machine learning inference for user face detection etc.
+          W3C is also working on the <a href="https://www.w3.org/groups/wg/webmachinelearning">WebNN</a> standard that allows client side developers to leverage the machine learning acceleration
           hardware that resides in client side devices.
         </p>
 
@@ -102,7 +102,7 @@
       <h2>Terminology</h2>
       <p>This document uses the following terms with the specific meanings defined here.
          Where possible these meanings are consistent with common usage.
-         However, note that common usage of some of these terms have 
+         However, note that common usage of some of these terms have
          multiple, ambiguous, or inconsistent meanings.
          The definition here will take precedence.
          When terms are used with the specific meanings defined here they will
@@ -118,7 +118,7 @@
         <dd>
         The periphery of a network.  
         Often used to refer specifically to the set of computing
-        resources available close to a client. 
+        resources available close to a client.
         </dd>
         <dt><dfn class="lint-ignore">FaaS</dfn></dt>
         <dd>Function as a Service.
@@ -131,7 +131,7 @@
         </dd>
         <dt><dfn class="lint-ignore">Cloud</dfn></dt>
         <dd>
-        A set of managed services that are 
+        A set of managed services that are
         designed to be interchangeable, scalable, and location-independent.
         </dd>
         <dt><dfn class="lint-ignore">Cloud Resources</dfn></dt>
@@ -152,16 +152,16 @@
         Note: this definition does not
         necessarily include "endpoints" such as IoT sensors.
         It refers specifically to computers
-        that can make Computing Resources available to others on the network.  
+        that can make Computing Resources available to others on the network.
         </dd>
         <dt><dfn class="lint-ignore">Migration</dfn></dt>
         <dd>
-        The ability to move a workload from one Computing Resources to another.
+        The ability to move a workload from one Computing Resource to another.
         See also Live Migration and Application-Directed Migration, which are subclasses.
         </dd>
         <dt><dfn class="lint-ignore">Live Migration</dfn></dt>
         <dd>
-        The ability to transparently move a running workload from one Computing Resources to another.
+        The ability to transparently move a running workload from one Computing Resource to another.
         This includes transparent migration of state and updates to references, so that the
         application that invoked the resource does not need to manage the transition and
         does not need to be made aware of it.  Such migration needs to be implemented with
@@ -170,7 +170,7 @@
         </dd>
         <dt><dfn class="lint-ignore">Application-Directed Migration</dfn></dt>
         <dd>
-        The ability to move a running workload from one Computing Resources to another under
+        The ability to move a running workload from one Computing Resource to another under
         control of an application.  In this version of Migration, the controlling 
         application or the Workload itself needs to manage the orderly transfer of state
         from one Computing Resource to another, and may also have to explicitly update
@@ -215,7 +215,7 @@
     <section>
       <h2>Stakeholders and Business Models</h2>
       <p>Different stakeholders with an interest in edge computing will have different
-      motivations and priorities.  In this section we present an categorization of the different
+      motivations and priorities.  In this section we present a categorization of the different
       kinds of stakeholders and their business models.  As we present use cases and discuss
       proposals we can then relate these to the motivating drivers of different stakeholders.
       Note that some stakeholders may belong to more than one category.
@@ -310,7 +310,7 @@
         <dt>Computing intensive application:</dt><dd>
               <p>
                 Computing intensive applications are client side applications whose main task is to do computing intensive work on the client. For example, mobile gaming applications 
-                need to calculate certain objects' location and other complex parameters based on user interaction then rendering in the client side. 
+                need to calculate certain objects' locations and other complex parameters based on user interaction then render in the client side. 
               </p>
         </dd>
         <dt>Hybrid application:</dt><dd>
